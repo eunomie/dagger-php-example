@@ -1,0 +1,5 @@
+name = "my-deps"
+
+[entrypoint]
+  kind = "dang"
+  source = "./sdk/entrypoint"

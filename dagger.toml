@@ -17,3 +17,6 @@ source = ".dagger/modules/my-module"
 [sdks.php.scopes.".dagger/modules/my-module"]
 is-module = true
 name = "my-module"
+
+[sdks.php.scopes.my-deps]
+is-module = true
