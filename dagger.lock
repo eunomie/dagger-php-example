@@ -5,5 +5,6 @@
 ["","git-latest",["github.com/dagger/sdk-helpers",["version","v1.0.9"]],"refs/tags/v1.0.9"]
 ["","git-sha",["github.com/dagger/php-sdk","global-client-opt-in"],"7bdb4f7d51a9a65e2f130ad15c297e94824478d6"]
 ["","git-sha",["github.com/dagger/sdk-helpers","refs/tags/v1.0.9"],"daffbc01a1b3f3df7b1c417a7d2c83cd06d1bd33"]
+["","oci-sha",["docker.io/library/alpine:3.24"],"sha256:f59abe656b692d901e184be3445e084786602108599d2a51d229c0f5a48c71bf"]
 ["","oci-sha",["docker.io/library/golang:1.25-alpine"],"sha256:1ae0735f00daffa3aaf1363a5184c0d2dc55c78e3db4ec70241cdac97bf84b59"]
 ["","vanity-url",["https://dagger.io/sdk/php"],"https://github.com/dagger/php-sdk"]

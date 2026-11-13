@@ -10,6 +10,7 @@ use Dagger\Attribute\Doc;
 use Dagger\Container;
 use Dagger\Directory;
 use Dagger\Workspace;
+use Dagger\Clients\MyDeps\Client as MyDeps;
 
 use function Dagger\core;
 
@@ -31,12 +32,8 @@ class MyModule
 
     #[DaggerFunction]
     #[Doc('A container with the workspace source, ready to build')]
-    public function container(): Container
+    public function container(Workspace $ws): Container
     {
-        return core()
-            ->container()
-            ->from($this->baseImageAddress)
-            ->withDirectory('/src', $this->source)
-            ->withWorkdir('/src');
+        return MyDeps::myDeps($ws)->container();
     }
 }

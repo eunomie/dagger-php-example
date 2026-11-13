@@ -8,6 +8,7 @@ type ModuleTypes {
         .withFunction(
           function("container", typeDef.withObject("Container"))
             .withDescription("A container with the workspace source, ready to build")
+            .withArg("ws", typeDef.withObject("Workspace"))
         )
         .withConstructor(
           function("", typeDef.withObject("MyModule"))
